@@ -10,17 +10,17 @@ The 'START' and 'END' rooms are indicated by comments above the selected rooms.
 
 For example, a map like look as follows:
 
-3
-Room1 1 3
-Room2 3 5
-##start
-Room3 2 1
-Room4 9 2
-##end
-Room5 3 7
-Room1-Room5
-Room2-Room4
-Room1-Room3
+-3
+-Room1 1 3
+-Room2 3 5
+-##start
+-Room3 2 1
+-Room4 9 2
+-##end
+-Room5 3 7
+-Room1-Room5
+-Room2-Room4
+-Room1-Room3
 
 In the above map, the start room is Room3 and the end room is Room5.
 
