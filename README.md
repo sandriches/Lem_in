@@ -32,11 +32,12 @@ The output is printed as follows:
 L[ant number]-[room_number].
 
 The solution for the above map would be:
+```
 L1-Room1
 L2-Room1  L1-Room5
 L3-Room1  L2-Room5
 L3-Room5
-
+```
 ----------------------
 The solution used incorporates Dinic's algorithm, removing augmenting paths using BREADTH FIRST SEARCH until the max flow is found.
 The input is read into a hash table so as to increase effiency, and the ants are only moved once the correct solution has been found.
